@@ -31,6 +31,7 @@ describe('API bank account test suite', () => {
                       }
             }).then(response => {
                 expect(response.status).to.eq(200);
+                
                 for (let i = 0; i < response.body.data.listBankAccount.length; i++) {
                     if (response.body.data.listBankAccount[i].bankName == accountData.bankName) {
                         expect(response.body.data.listBankAccount[i].accountNumber).to.contains(accountData.accountNumber);
