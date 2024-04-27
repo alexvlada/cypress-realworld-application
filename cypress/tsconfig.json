@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["./**/*.ts", "../cypress.d.js", "global.d.js", "tests/realworld/page_objects/signUp.cy.js", "tests/realworld/task3.cy.js", "tests/realworld/task2.cy.js", "tests/realworld/task1.cy.js", "tests/realworld/page_objects/signIn.cy.js", "tests/realworld/page_objects/home.cy.js", "tests/realworld/page_objects/getStartedPopup.cy.js", "tests/realworld/page_objects/finishedPopup.cy.js", "tests/realworld/page_objects/createBankAccount.cy.js"],
+  "exclude": [],
+  "compilerOptions": {
+    "types": ["cypress", "@percy/cypress"],
+    "lib": ["es2015", "dom"],
+    "isolatedModules": false,
+    "allowJs": true,
+    "noEmit": true
+  }
+}
