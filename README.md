@@ -16,6 +16,8 @@ task7.cy - Multiply payment transactions test suit
 
 task8.cy - API bank account test suite
 
+task9.cy - API create user test suite
+
 
 page_objects folder contains page object files
 
